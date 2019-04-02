@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1450575270498380}
+  m_IsPrefabAsset: 1
+--- !u!1 &1450575270498380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4307280053974906}
+  - component: {fileID: 114728817799948850}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4307280053974906
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450575270498380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114728817799948850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1450575270498380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NeverDestroy: 0
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  GoogleLiveSyncIsUptoDate: 1
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
+  Spreadsheet_SpecializationAsRows: 1
+  Assets: []
+  Google_WebServiceURL: 
+  Google_SpreadsheetKey: 
+  Google_SpreadsheetName: 
+  Google_LastUpdatedVersion: 
+  Google_Password: change_this
+  GoogleUpdateFrequency: 3
+  GoogleInEditorCheckFrequency: 2
+  GoogleUpdateDelay: 5
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Vietnamese
+    Code: vi
+    Flags: 0
+  IgnoreDeviceLanguage: 0
+  _AllowUnloadingLanguages: 1
+  mTerms:
+  - Term: Option A
+    TermType: 0
+    Description: 
+    Languages:
+    - 
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Arial
+    TermType: 1
+    Description: 
+    Languages:
+    - 
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Best Score
+    TermType: 0
+    Description: 
+    Languages:
+    - Best Score
+    - "\u0110i\u1EC3m Cao Nh\u1EA5t"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: RESET
+    TermType: 0
+    Description: 
+    Languages:
+    - AGAIN
+    - "CH\u01A0I L\u1EA0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: NORMAL
+    TermType: 0
+    Description: 
+    Languages:
+    - NORMAL
+    - "B\xCCNH TH\u01AF\u1EDCNG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: CONTINUE
+    TermType: 0
+    Description: 
+    Languages:
+    - CONTINUE
+    - "TI\u1EBEP T\u1EE4C"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: NO
+    TermType: 0
+    Description: 
+    Languages:
+    - NO
+    - "KH\xD4NG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: YES
+    TermType: 0
+    Description: 
+    Languages:
+    - YES
+    - "C\xD3"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: INSANE
+    TermType: 0
+    Description: 
+    Languages:
+    - INSANE
+    - "KH\u1EE6NG KHI\u1EBEP"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: CONFUSE
+    TermType: 0
+    Description: 
+    Languages:
+    - CONFUSE
+    - "R\u1ED0I TR\xCD"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: MADNESS
+    TermType: 0
+    Description: 
+    Languages:
+    - MADNESS
+    - "\u0110I\xCAN LO\u1EA0N"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Quit Game?
+    TermType: 0
+    Description: 
+    Languages:
+    - Quit Game?
+    - "Tho\xE1t Tr\xF2 Ch\u01A1i?"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: GAME OVER!
+    TermType: 0
+    Description: 
+    Languages:
+    - GAME OVER!
+    - "THUA CU\u1ED8C!"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: CLOSE
+    TermType: 0
+    Description: 
+    Languages:
+    - CLOSE
+    - "\u0110\xD3NG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Every area has its own controller, number of areas depends on the mode you
+      play
+    TermType: 0
+    Description: 
+    Languages:
+    - "Every area has its own controller, \nnumber of areas depends on the \nmode
+      you play"
+    - "M\u1ED7i m\u1ED9t v\xF9ng \u0111i\u1EC1u khi\u1EC3n t\u1EA5t c\u1EA3 ng\u01B0\u1EDDi\nque
+      c\u1EE7a ri\xEAng n\xF3, s\u1ED1 l\u01B0\u1EE3ng v\xF9ng \nph\u1EE5 thu\u1ED9c
+      v\xE0o ch\u1EBF \u0111\u1ED9 b\u1EA1n ch\u01A1i"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Each area has its own controller, the number of zones depends on the mode
+      you play
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Touch the field has stickmans you
+
+      want them to jump, all stickmans
+
+      in that field will jump'
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Touch the field has stickmans you want them to jump, all stickmans in that
+      field will jump
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Touch the field has stickmans you
+
+      want them to jump, all stickmans
+
+      in that field will jump'
+    - "Ch\u1EA1m v\xE0o t\u1EA7ng c\xF3 ng\u01B0\u1EDDi que\nb\u1EA1n mu\u1ED1n n\xF3
+      nh\u1EA3y l\xEAn, t\u1EA5t c\u1EA3\nng\u01B0\u1EDDi que c\u1EE7a t\u1EA7ng \u0111\xF3
+      s\u1EBD nh\u1EA3y "
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Don't let any stickmans fall into the space or you will lose. Use your quick
+      reaction and get the highest score
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Don''t let any stickmans in first field fall
+
+      or you will lose. Use your quick reaction
+
+      and try to get the highest score '
+    - "\u0110\u1EEBng \u0111\u1EC3 b\u1EA5t k\u1EF3 ng\u01B0\u1EDDi que n\xE0o \u1EDF
+      t\u1EA7ng \u0111\u1EA7u\nr\u1EDBt kh\xF4ng b\u1EA1n s\u1EBD thua. D\xF9ng ph\u1EA3n
+      x\u1EA1\nc\u1EE7a b\u1EA1n v\xE0 c\u1ED1 \u0111\u1EA1t \u0111\u01B0\u1EE3c \u0111i\u1EC3m
+      cao nh\u1EA5t"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: SETTINGS
+    TermType: 0
+    Description: 
+    Languages:
+    - SETTINGS
+    - "C\xC0I \u0110\u1EB6T"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: 'Sound:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Sound:'
+    - "\xC2m thanh:"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: 'Language:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Language:'
+    - "Ng\xF4n ng\u1EEF:"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Play
+    TermType: 0
+    Description: 
+    Languages:
+    - Play
+    - "Ch\u01A1i"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Leaderboard
+    TermType: 0
+    Description: 
+    Languages:
+    - Leaderboard
+    - "B\u1EA3ng x\u1EBFp h\u1EA1ng"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Tutorial
+    TermType: 0
+    Description: 
+    Languages:
+    - 
+    - 
+    Flags: 0000
+    Languages_Touch: []
+  - Term: TUTORIAL
+    TermType: 0
+    Description: 
+    Languages:
+    - TUTORIAL
+    - "H\u01AF\u1EDANG D\u1EAAN"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: PAUSE
+    TermType: 0
+    Description: 
+    Languages:
+    - PAUSE
+    - "T\u1EA0M D\u1EEANG"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: SOUND
+    TermType: 0
+    Description: 
+    Languages:
+    - SOUND
+    - "\xC2M THANH"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: LANGUAGE
+    TermType: 0
+    Description: 
+    Languages:
+    - LANGUAGE
+    - "NG\xD4N NG\u1EEE"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: RESTART
+    TermType: 0
+    Description: 
+    Languages:
+    - RESTART
+    - "CH\u01A0I L\u1EA0I"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: MUSIC
+    TermType: 0
+    Description: 
+    Languages:
+    - MUSIC
+    - "NH\u1EA0C N\u1EC0N"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: Rate
+    TermType: 0
+    Description: 
+    Languages:
+    - Rate
+    - "\xD0\xE1nh gi\xE1"
+    Flags: 0000
+    Languages_Touch: []
+  - Term: 'Music:'
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Music:'
+    - "Nh\u1EA1c n\u1EC1n:"
+    Flags: 0000
+    Languages_Touch: []
+  CaseInsensitiveTerms: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 
